@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -82,7 +81,7 @@ nav ul ul li a {
 .banner-container {
   width: 100%;
   max-width: 1200px;
-  height: 400px;
+  height: 550px;
   margin: 20px auto;
   overflow: hidden;
   border-radius: 20px;
@@ -90,27 +89,14 @@ nav ul ul li a {
   box-shadow: 0 8px 18px rgba(0,0,0,0.3);
 }
 
-.banner-slide {
-  display: flex;
-  width: 300%; 
-  animation: slide 12s infinite;
-}
-
-.banner-slide img {
+.banner-container img {
   width: 100%;
-  height: 400px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover; /* biar GIF pas sama container */
+  object-position: top;
+  display: block;
 }
 
-
-@keyframes slide {
-  0% { transform: translateX(0); }
-  30% { transform: translateX(0); }
-  35% { transform: translateX(-100%); }
-  65% { transform: translateX(-100%); }
-  70% { transform: translateX(-200%); }
-  100% { transform: translateX(-200%); }
-}
 
 
 h2 {
@@ -251,3 +237,4 @@ footer {
     font-size: 14px;
     color: #555;
 }
+
