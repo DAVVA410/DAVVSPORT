@@ -182,32 +182,55 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-links h4,
-.footer-contact h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #2c3e50;
+
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #0b66d0;
+  border-bottom: 2px solid #0b66d0;
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
 .footer-links ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.footer-links ul li {
-    margin: 5px 0;
+.footer-links li {
+  margin: 8px 0;
+  position: relative;
+  padding-left: 22px;
 }
 
-.footer-links ul li a {
-    color: #444;
-    text-decoration: none;
-    transition: 0.3s;
+.footer-links li::before {
+  content: "▶";
+  color: #0b66d0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 12px;
+  line-height: 20px;
 }
 
-.footer-links ul li a:hover {
-    color: #000;
-    text-decoration: underline;
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  transition: all 0.3s ease;
 }
+
+.footer-links a:hover {
+  color: #0b66d0;
+  margin-left: 5px;
+}
+
 
 .footer-contact p {
     margin: 5px 0;
@@ -252,7 +275,7 @@ footer {
 
 .about-section h2 {
   font-size: 28px;
-  color: #0b66d0;
+  color: #0b66d0; 
   margin-bottom: 15px;
 }
 
@@ -316,4 +339,5 @@ footer {
     font-size: 15px;
   }
 }
+
 
