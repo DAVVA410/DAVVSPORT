@@ -239,7 +239,7 @@ footer {
     color: #555;
 }
 
-/* ===== ABOUT PAGE ===== */
+
 .about-section {
   max-width: 900px;
   margin: 40px auto;
@@ -252,7 +252,7 @@ footer {
 
 .about-section h2 {
   font-size: 28px;
-  color: #0b66d0; /* biru dominan */
+  color: #0b66d0;
   margin-bottom: 15px;
 }
 
@@ -298,7 +298,7 @@ footer {
   transform: translateY(-50%);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .about-section {
     padding: 15px;
@@ -316,3 +316,4 @@ footer {
     font-size: 15px;
   }
 }
+
